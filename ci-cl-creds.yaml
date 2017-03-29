@@ -1,0 +1,5 @@
+endpoint: {{ MAAS_ENDPOINT }}
+maas-oauth: {{ MAAS_USER KEY }} 
+environment: '{{ JUJU_CONTROLLER:JUJU_MODEL }}'
+user: '{{ JUJU_USER }}'
+password: '{{ JUJU_USER_PASSWORD }}'
